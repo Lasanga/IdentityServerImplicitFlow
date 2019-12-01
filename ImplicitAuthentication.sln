@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.29509.3
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplicitAuthentication.IdentityServer", "ImplicitAuthentication.IdentityServer\ImplicitAuthentication.IdentityServer.csproj", "{B85C1093-351A-4178-9C5F-8172A7DB3B61}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplicitAuthentication.IdentityServer", "ImplicitAuthentication.IdentityServer\ImplicitAuthentication.IdentityServer.csproj", "{B85C1093-351A-4178-9C5F-8172A7DB3B61}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplicitAuthentication.WebApi", "ImplicitAuthentication.WebApi\ImplicitAuthentication.WebApi.csproj", "{6E3E5130-E1B8-40B0-96BC-1B91B5D1875C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ImplicitAuthentication.WebApi", "ImplicitAuthentication.WebApi\ImplicitAuthentication.WebApi.csproj", "{6E3E5130-E1B8-40B0-96BC-1B91B5D1875C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplicitAuthentication.Front", "ImplicitAuthentication.Front\ImplicitAuthentication.Front.csproj", "{007C8F83-7609-4E36-8DDD-656A6DA6B340}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{6E3E5130-E1B8-40B0-96BC-1B91B5D1875C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6E3E5130-E1B8-40B0-96BC-1B91B5D1875C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6E3E5130-E1B8-40B0-96BC-1B91B5D1875C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{007C8F83-7609-4E36-8DDD-656A6DA6B340}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{007C8F83-7609-4E36-8DDD-656A6DA6B340}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{007C8F83-7609-4E36-8DDD-656A6DA6B340}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{007C8F83-7609-4E36-8DDD-656A6DA6B340}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -42,7 +42,7 @@ namespace ImplicitAuthentication.WebApi.Controllers
         [HttpPost, Route("senddata")]
         public void PostData([FromBody] TestData data)
         {
-            var s = data;
+            var testData = data;
         }
     }
 
